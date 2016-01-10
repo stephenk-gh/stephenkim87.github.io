@@ -1,0 +1,112 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+      background-color: #19296B;
+      color: white;
+    }
+    body {
+       width: 100%;
+       height: 100%;
+    }
+
+    header {
+        background-image: url("http://mikereidphotography.com/seattle,%20sunsets%20and%20miscellaneous/Seattle%20Skyline%20Night%20Reflection%20from%20Alki.jpg");
+        background-size: auto 100%;
+        padding: 0;
+        font-size: 50px;
+        color: white;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        vertical-align:
+    }
+    nav {
+
+        display: inline-block;
+        width: 100%;
+        vertical-align: bottom;
+        font-size: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+    nav li {
+        float: left;
+    }
+
+    a {
+        color: white;
+    }
+    section {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
+
+
+
+.spacing {
+  width: 25%;
+}
+
+.imgformat {
+  width: 500px;
+  height: auto;
+  display: inline-block;
+  float: left;
+
+}
+.titleformat {
+    width: auto;
+    vertical-align: top;
+    display: inline-block;
+    background-color:;
+    padding:;
+}
+.descformat {
+    float: right;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    background-color:;
+    padding:;
+}
+
+.right {
+  clear: left;
+  float: left;
+  left: 50%;
+  margin-left: -520px;
+  max-width: 495px;
+  position: relative;
+  top: 298px;
+  width: 50%;
+  z-index: 4;
+}
+.left {
+  float: left;
+  margin-left: 1.5%;
+  max-width: 495px;
+  padding-bottom: 15px;
+  position: relative;
+  left: 50%;
+}
